@@ -35,7 +35,7 @@ import Footer from './components/Footer.vue';
 
 @media (max-width: 480px) {
     .sections {
-      padding: 70px 24px 70px 24px;
+      padding: 70px 12px 70px 12px;
     }
 }
 </style>

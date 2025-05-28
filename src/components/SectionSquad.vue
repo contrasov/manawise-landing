@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section class="sec-h">
+    <section class="section-normal">
         <div class="sec-title">
             <h1 class="h1-sec">Manawise Squad</h1>
         </div>
@@ -12,10 +12,11 @@
 
 <style>
 
-.sec-h {
+.section-normal {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
+    width: 1161px;
     text-align: left;
 }
 
@@ -24,11 +25,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1161px;
 }
 
 @media (max-width: 480px) {
-    .sec-title {
+    .section-normal {
         width: 380px;
     }
 }
