@@ -29,7 +29,7 @@
 
 @media (max-width: 480px) {
     .sec-title {
-        width: 400px;
+        width: 380px;
     }
 }
 </style>
