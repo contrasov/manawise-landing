@@ -31,11 +31,15 @@
     .section-normal {
         width: 380px;
     }
+
+    .sec-title > h1 {
+        font-size: 32px;
+    }
 }
 
 @media (min-width: 380px) {
     .section-normal {
-        width: 355px;
+        width: 365px;
     }
 
     .sec-title > h1 {
