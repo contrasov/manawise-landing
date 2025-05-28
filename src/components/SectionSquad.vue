@@ -39,7 +39,7 @@
 
 @media (min-width: 380px) {
     .section-normal {
-        width: 360px;
+        width: 357px;
     }
 
     .sec-title > h1 {
