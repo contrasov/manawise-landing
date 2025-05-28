@@ -32,4 +32,14 @@
         width: 380px;
     }
 }
+
+@media (min-width: 400px) {
+    .section-normal {
+        width: 360px;
+    }
+
+    .sec-title > h1 {
+        font-size: 32px;
+    }
+}
 </style>
