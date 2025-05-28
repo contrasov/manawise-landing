@@ -29,16 +29,6 @@
 
 @media (max-width: 480px) {
     .section-normal {
-        width: 380px;
-    }
-
-    .sec-title > h1 {
-        font-size: 32px;
-    }
-}
-
-@media (min-width: 380px) {
-    .section-normal {
         width: 357px;
     }
 
@@ -46,4 +36,15 @@
         font-size: 32px;
     }
 }
+
+/* @media (min-width: 380px) {
+    .section-normal {
+        width: 357px;
+        margin: 0 -10px 0 0;
+    }
+
+    .sec-title > h1 {
+        font-size: 32px;
+    }
+} */
 </style>

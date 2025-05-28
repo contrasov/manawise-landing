@@ -38,4 +38,10 @@ import Footer from './components/Footer.vue';
       padding: 70px 12px 70px 12px;
     }
 }
+
+@media (min-width: 480px) and (max-width: 500px) {
+    .section-normal {
+        width: 457px; /* Ajuste a largura conforme necessário */
+    }
+}
 </style>
