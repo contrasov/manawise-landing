@@ -1,0 +1,72 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: white;
+  background-color: #070C1A;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image: url('./assets/banner-background.svg');
+  background-size: cover;
+  background-position: top;
+  margin: 0;
+  height: 100vh;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.h1-sec {
+  font-size: 40px;
+  color: #E0FE08;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+button {
+  background-color: #E0FE08;
+  color: #090F20;
+  font-weight: bold;
+  padding:  7px 14px 7px 14px;
+  height: fit-content;
+  border: 0;
+  font-size: medium;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
