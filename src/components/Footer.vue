@@ -7,7 +7,7 @@
         <div class="bg-purpleMana flex flex-row max-sm:flex-col items-center justify-between max-sm:gap-10 px-5 py-10">
             <img id="logo-footer" src="../assets/logo1.svg" alt="Logo Footer">
 
-            <ul class="flex flex-row max-sm:flex-col gap-6  items-center">
+            <ul class="flex flex-row max-sm:flex-col gap-6 text-sm items-center">
                 <li class="hover-items">ÍNICIO</li>
                 <li class="hover-items">SOBRE</li>
                 <li class="hover-items">EVENTOS</li>
