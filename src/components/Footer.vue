@@ -3,20 +3,20 @@
 </script>
 
 <template>
-    <footer>
-        <div class="footer-items">
+    <footer class="flex flex-col">
+        <div class="bg-purpleMana flex flex-row max-sm:flex-col items-center justify-between max-sm:gap-10 px-5 py-10">
             <img id="logo-footer" src="../assets/logo1.svg" alt="Logo Footer">
 
-            <ul class="footer-list">
-                <li>ÍNICIO</li>
-                <li>SOBRE</li>
-                <li>EVENTOS</li>
-                <li>PRODUTOS</li>
-                <button>Em breve</button>
+            <ul class="flex flex-row max-sm:flex-col gap-6  items-center">
+                <li class="hover-items">ÍNICIO</li>
+                <li class="hover-items">SOBRE</li>
+                <li class="hover-items">EVENTOS</li>
+                <li class="hover-items">PRODUTOS</li>
+                <button class="btn-y">Em breve</button>
             </ul>
 
-            <div class="social">
-                <div id="social-items">
+            <div class="flex flex-col gap-3 max-sm:gap-5">
+                <div class="flex flex-row justify-between w-full items-center">
                     <a href="https://www.instagram.com/manawise_/" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/social/instagram.svg" alt="Instagram Manawise">
                     </a>
@@ -33,130 +33,20 @@
                         <img src="../assets/social/spotify.svg" alt="Instagram Manawise">
                     </a>
                 </div>
-                <span id="contacts">
-                    <p>CONTATO@MANAWISE.COM.BR</p>
-                    <p id="mt">(85)99259-5161</p>
+                <span class="text-right"> <!-- não aqui por causa do span do banner, na irei mudar :) -->
+                    <p class="text-white">CONTATO@MANAWISE.COM.BR</p>
+                    <p class="text-white mt-2">(85)99259-5161</p>
                 </span>
             </div>
         </div>
 
         <div class="footer-terms">
             <p>Todos os direitos reservados Manawise</p>
-            <div id="terms">
-                <p>Política de Privacidade</p>
-                <p>Termos de Serviço</p>
-                <p>Código de Conduta</p>
+            <div class="flex flex-row gap-2">
+                <p class="terms">Política de Privacidade</p>
+                <p class="terms">Termos de Serviço</p>
+                <p class="terms">Código de Conduta</p>
             </div>
         </div>
     </footer>
 </template>
-
-<style>
-.footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: row;
-    gap: 46px;
-    align-items: center;
-    font-size: 14px;
-}
-
-.footer-terms {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 12px 24px;
-    background-color: #E0FE08;
-    color: #090F20;
-    font-size: 12px;
-}
-
-#terms {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-
-#terms>p:hover {
-    border-bottom: 1px solid black;
-    margin-bottom: -2px;
-    cursor: pointer;
-}
-
-#mt {
-    margin-top: 8px;
-}
-
-#contacts {
-    color: white;
-    text-align: end;
-}
-
-#contacts>p {
-    font-size: 14px;
-}
-
-.footer-items {
-    background-color: #20113C;
-    display: flex;
-    flex-direction: row;
-    padding: 42px 47px;
-    justify-content: space-between;
-}
-
-.social {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-#social-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#social-items>img:hover {
-    color: #E0FE08;
-    cursor: pointer;
-}
-
-@media (max-width: 480px) {
-    .footer-items {
-        flex-direction: column;
-        gap: 24px;
-        padding: 42px 15px;
-    }
-
-    .footer-items > img {
-        height: 50px;
-        width: auto;
-    }
-
-    #social-items {
-        justify-content: center;
-        gap: 24px;
-    }
-
-    .footer-list {
-        flex-direction: column;
-        font-size: 12px;
-        gap: 12px;
-        margin-left: -30px;
-    }
-
-    #contacts {
-        text-align: center;
-    }
-
-    .footer-terms {
-        font-size: 10px;
-        padding: 12px 0;
-    }
-}
-</style>

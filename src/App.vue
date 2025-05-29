@@ -12,7 +12,7 @@ import Footer from './components/Footer.vue';
   <main>
     <SectionBanner />
     <SectionTimer />
-    <div class="sections">
+    <div class="flex flex-col gap-[117px] justify-center items-center py-20 mx-[10%] max-sm:mx-[5%]">
       <SectionAbout />
       <SectionPodcast />
       <SectionSquad id="ml"/>
@@ -22,26 +22,3 @@ import Footer from './components/Footer.vue';
   </main>
 
 </template>
-
-<style scoped>
-.sections {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 85px;
-  padding: 70px 104px 70px 90px;
-}
-
-@media (max-width: 480px) {
-    .sections {
-      padding: 70px 12px 70px 12px;
-    }
-}
-
-@media (min-width: 480px) and (max-width: 500px) {
-    .section-normal {
-        width: 457px; /* Ajuste a largura conforme necessário */
-    }
-}
-</style>

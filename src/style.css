@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.2;
@@ -21,13 +24,8 @@ body {
   height: 100vh;
 }
 
-h1, h2, p {
+h1, h2 {
   margin: 0;
-}
-
-.h1-sec {
-  font-size: 40px;
-  color: #E0FE08;
 }
 
 header {
@@ -40,7 +38,7 @@ header {
 
 li {
   list-style-type: none;
-  margin: 0;
+  position: relative;
 }
 
 #app {
@@ -48,8 +46,6 @@ li {
 }
 
 button {
-  background-color: #E0FE08;
-  color: #090F20;
   font-weight: bold;
   padding:  7px 14px 7px 14px;
   height: fit-content;
@@ -57,16 +53,42 @@ button {
   font-size: medium;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@layer base {
+  .hover-items {
+    @apply hover:border-b-[3px] hover:border-[#E0FE08] hover:mb-[-2px] py-2 cursor-pointer;
   }
-  a:hover {
-    color: #747bff;
+
+  .btn-y {
+    @apply bg-[#e0fe08] text-[#090F20] cursor-pointer;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .btn-d {
+    @apply bg-[#090F20] text-[#e0fe08] cursor-pointer;
+  }
+
+  .section-normal {
+    @apply w-full flex flex-col text-left gap-3;
+  }
+
+  .section-title > h1 {
+    @apply text-5xl text-yellowMana font-bold max-sm:text-3xl;
+  }
+
+  .section-title {
+    @apply flex flex-row justify-between;
+  }
+
+  .footer-terms {
+    @apply bg-yellowMana flex flex-row justify-between text-darkMana text-xs max-sm:text-[10px] max-sm:px-1 py-2 px-5;
+  }
+
+  .terms {
+    @apply hover:border-b hover:mb-[-2px] hover:cursor-pointer;
   }
 }
 
+@theme {
+  --color-yellowMana: #e0fe08;
+  --color-darkMana: #090F20;
+  --color-purpleMana: #20113C;
+}

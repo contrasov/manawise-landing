@@ -3,8 +3,8 @@
 
 <template>
     <section class="section-normal">
-        <div class="sec-title">
-            <h1 class="h1-sec">Pré-venda a caminho!</h1>
+        <div class="section-title">
+            <h1>Pré-venda a caminho!</h1>
         </div>
         <p>Lorem ipsum dolor sit amet, Et rerum dolor cum aperiam cupiditate ut.</p>
     </section>    

@@ -2,21 +2,21 @@
 </script>
 
 <template>
-    <section id="sec-timer">
-        <h1 id="timer">00 : 00 : 00 : 00</h1>
+    <section class="py-[28px] max-sm:flex-col max-sm:gap-4 border bg-[#e0fe08] text-black flex flex-row items-center justify-center gap-11">
+        <h1 class="text-5xl max-sm:text-4xl font-black">00 : 00 : 00 : 00</h1>
 
-        <div id="timer-text">
-            <h2>Contagem regressiva!</h2>
-            <p>O programa estará disponível no Spotify às 08:00!</p>
+        <div class="text-left max-sm:text-center flex flex-col gap-2">
+            <h2 class="text-[23px] font-bold">Contagem regressiva!</h2>
+            <p class="max-sm:text-[14px]">O programa estará disponível no Spotify às 08:00!</p>
         </div>
 
-        <button id="podcast-btn">Manawise Podcast</button>
+        <button class="btn-d">Manawise Podcast</button>
     </section>
 </template>
 
 <style>
 
-#timer {
+/* #timer {
     font-size: 48px;
 }
 
@@ -64,5 +64,5 @@
     #timer-text {
         text-align: center;
     }
-}
+} */
 </style>
