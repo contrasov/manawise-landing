@@ -2,7 +2,8 @@
 </script>
 
 <template>
-    <section class="py-[28px] max-sm:flex-col max-sm:gap-4 border bg-[#e0fe08] text-black flex flex-row items-center justify-center gap-11">
+    <section
+        class="py-[28px] max-sm:flex-col max-sm:gap-4 border bg-[#e0fe08] text-black flex flex-row items-center justify-center gap-11">
         <h1 class="text-5xl max-sm:text-4xl font-black">00 : 00 : 00 : 00</h1>
 
         <div class="text-left max-sm:text-center flex flex-col gap-2">
@@ -10,12 +11,14 @@
             <p class="max-sm:text-[14px]">O programa estará disponível no Spotify às 08:00!</p>
         </div>
 
-        <button class="btn-d">Manawise Podcast</button>
+        <a href="https://open.spotify.com/show/5oOy4DGPUv12RryslpKsLL?go=1&sp_cid=5bc747039e5c4ea5d2cbb067a4b37653&nd=1&dlsi=fabcdd5ccec148ce"
+            target="_blank" rel="noopener noreferrer">
+            <button class="btn-d">Manawise Podcast</button>
+        </a>
     </section>
 </template>
 
 <style>
-
 /* #timer {
     font-size: 48px;
 }

@@ -24,10 +24,6 @@ body {
   height: 100vh;
 }
 
-h1, h2 {
-  margin: 0;
-}
-
 header {
   display: flex;
   flex-direction: row;
