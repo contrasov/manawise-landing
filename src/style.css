@@ -49,6 +49,10 @@ button {
   font-size: medium;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   .hover-items {
     @apply hover:border-b-[3px] hover:border-[#E0FE08] hover:mb-[-2px] py-2 cursor-pointer;

@@ -15,7 +15,7 @@ const config = {
 </script>
 
 <template>
-    <section class="section-normal">
+    <section id="products" class="section-normal">
         <div class="section-title">
             <h1>Pré-venda a caminho!</h1>
         </div>
